@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我们</title>
+    <link rel="stylesheet" href="../css/head.css">
+  <link rel="stylesheet" href="../css/userhl.css">
+  <link rel="stylesheet" href="../css/foot.css">
+  <style>
+    .xx-box .nologin,.zxx,.pwdg{
+        display: none;
+    }
+  </style>
+</head>
+<body>
+    <div class="head-dhl">
+        <script src="../js/head.js"></script>
+      </div>
+      
+      <div class="zt-box">
+          <div class="x-box">
+              <div class="xx-box">
+                  <ul>
+                      <li><a href="../../admin/index.php">管理后台</a></li>
+                      <li class="pwdg"><a href="../html/pwdg.html">修改密码</a></li>
+                <li class="nologin"><a href="../php/nologin.php" >退出登录</a></li>
+                <li class="zxx"><a href="../php/zxx.php" >注销账号</a></li>
+            </ul>
+        </div>
+        <div class="xx-wb">
+        <p>用户名：<span class="user"></span></p>
+        <p>性别：<span class="sex" style="margin-left: 24px;"></span></p>
+        <p>学历：<span class="xll" style="margin-left: 24px;"></span></p>
+        <p class="gonggao"></p>
+    </div>
+</div>
+</div> 
+<script src="../php/userhl.php"></script>
+<script>
+document.querySelector('.xx-box .nologin').addEventListener('click',function(){
+    alert('您已退出登录!')
+})
+document.querySelector('.xx-box .zxx').addEventListener('click',function(){
+    alert('您已注销账号!')
+})
+</script>
+<script src="../js/foot.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.head-dhl{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  background-color: rgb(69, 73, 116);
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+}
+.head-dhl img{
+  width: 150px;
+  height: 80px;
+  padding:0 40px ;
+  padding-right: 80px;
+}
+.head-dhl ul{
+  list-style: none;
+  position:relative;
+  display: flex;
+  left: 4%;
+}
+.head-dhl li{
+  float: left;
+  width: 180px;
+  color: aliceblue;
+  font-size: 24px;
+}
+.head-dhl ul a{
+  width: 140px;
+  height: 30px;
+  padding: 20px 0 20px 40px;
+  color: aliceblue;
+  display: block;
+}
+.head-dhl li:nth-child(1) a{
+  background: rgba(255,255,255,0.6);
+  color: rgb(69,73,116);
+}
+.head-dhl ul a:hover{
+  background: rgba(255,255,255,0.6);
+  color: rgb(69,73,116);
+  transition: 0.8s;
+}
+.head-dhl .useee{
+  width: 300px;
+  height: 50px;
+  margin-top: 10px ;
+  position: relative;
+  display: block;
+  color: #fff;
+  left: 7%;
+}
+.head-dhl .useee button{
+  width: 60px;
+  height: 40px;
+  margin: 5px;
+}
+.head-dhl .useee p{
+  display: block;
+  margin-top: 10px;
+}

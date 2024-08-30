@@ -1,0 +1,149 @@
+.head-dhl li:nth-child(3) a{
+  background: rgba(255,255,255,0.6);
+  color: rgb(69,73,116);
+}
+  .head-dhl li:nth-child(1) a{
+  background:none;
+  color: #fff;
+}
+  .head-dhl ul a:hover{
+  background: rgba(255,255,255,0.6);
+  color: rgb(69,73,116);
+  transition: 0.8s;
+}
+
+.d-box{
+  width: 100%;
+  height: 2200px;
+  background: url(../image/bz.jpg);
+  padding: 200px 0px;
+  background-size: 100% 100%;
+}
+.d-box .e-box{
+  width: 1100px;
+  height: 1800px;
+  background: rgba(255,255,255,0.9);
+  border: #744903 10px solid;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 450px;
+}
+.e-box1{
+  margin-left: 40px;
+  height: 1740px;
+  position: relative;
+}
+.e-box h2{
+  font-size: 50px;
+  float: left;
+  margin-right: 20px;
+}
+.e-box1 ul{
+  padding-top: 20px;
+position: relative;  
+display: block;
+}
+.e-box li{
+  position: relative;
+  width: 240px;
+  height: 300px;
+  border: 1px #d1c8f5 solid;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+  display: block;
+  float: left;
+  transition: all .5s;
+}
+.e-box li img{
+  width: 100%;
+  height: 150px;
+}
+.e-box li p,span{
+  margin: 5px 15px;
+}
+.e-box li p{
+  font-size: 22px;
+}
+.e-box li span{
+  display: block;
+  margin-top: 20px;
+  font-size: 10px;
+  color: #000;
+}
+.e-box o,l,t{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .e-box o{ color: aqua;}
+    .e-box l{color: blue;}
+    .e-box t{color: yellow;}
+    .e-box li:hover{
+      top: -8px;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+    }
+    .e-box a{
+      text-decoration: none;
+      color: #000;
+    }
+    .e-box li p:nth-child(3){
+      font-size: 15px;
+      color: brown;
+      font-weight: bold;
+    }
+    .e-box span{
+      position: relative;
+      bottom: -30px;
+    }
+    .page {
+      text-align: center;
+      margin: 20px auto;
+      padding-top: 80px;
+      position: absolute;
+      bottom: 0;
+  }
+  
+  .page a {
+      display: block;
+      padding-top: 50px;
+      width: 100px;
+      height: 30px;
+      padding: 5px 10px;
+      background: rgb(69, 73, 116);
+      font-size: 20px;
+      color: #fff !important;
+      margin-right: 5px;
+      text-align: center;
+      text-decoration: none;
+      float: left;
+      position: relative;
+  }
+  .head-sos {
+    width: 1100px;
+    height: 100px;
+    display: block;
+    position: relative;
+  }
+   .head-sos input{
+    display: block;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    width: 300px;
+    font-size: 20px;
+  }
+  
+   .sos{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    overflow: hidden;
+    background: url(../image/sos.png) no-repeat center / cover;
+    float: left;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+  }

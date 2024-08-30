@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background: url(../image/2020春节.jpg);
+    height: 960px;
+    overflow: hidden;
+}
+.delu{
+    width: fit-content;
+    border: 10px solid rgb(128, 69, 11);
+    padding: 20px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.886);
+    width: 400px;
+    height: 420px;
+}
+.delu form{
+    padding-left: 30px;
+    font-size: 24px;
+}
+.delu input,label{
+    margin-top: 40px;
+}
+.delu input{
+    height: 40px;
+    font-size: 16px;
+    border: 3px solid rgb(128, 69, 11);
+    border-radius: 10px;
+    width: 240px;
+}
+.delu .logo{
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    transform: translateY();
+}
+.delu .logo img{
+    width: 100%;
+}
+.delu button{
+    margin-top: 40px;
+    width: 330px;
+    height: 50px;
+}
+.delu .log{
+    margin: 0 auto;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.delu .log a{
+    color: rgb(128, 69, 11);
+}

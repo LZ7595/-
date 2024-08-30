@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="box">
+    <div class="delu">
+        <div class="logo"><img src="../image/logo.png" alt="logo"></div>
+        <form action="../php/login.php" method="post">
+        <label>用户名:</label>
+        <input type="text" name="username" id="username" placeholder="请输入用户名">
+        <br/>
+        <label style="margin-left: 24px;">密码:</label>
+        <input type="password" name="passwd" id="passwd" placeholder="请输入密码">
+        <br/>
+        <button type="submit" name="login" id="dl">登录</button>
+        </br>
+        </form>
+        <div class="log">
+            <p>没有可登录的账号？
+            <a href="./register.html">点击此处去注册</a></p>
+        </div>
+</div>
+</div>
+</body>
+</html>

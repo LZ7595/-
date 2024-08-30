@@ -1,0 +1,49 @@
+<script>
+header('Access-Control-Allow-Origin:*');
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE");
+header('Access-Control-Allow-Headers:x-requested-with,content-type');
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="box">
+    <div class="zccc">
+        <div class="logo"><img src="../image/logo.png" alt="logo"></div>
+        <form action="../php/register.php" method="post" >
+        <tr>
+        <td><label>用户名:</label></td>
+        <td><input type="text" name="username" id="username" placeholder="请输入用户名"></td>
+        </tr><br/>
+        <tr>
+        <td><label style="margin-right: 24px;">密码:</label></td>
+        <td><input type="password" name="passwd" id="passwd" placeholder="请输入密码"></td>
+        </tr><br/><tr>
+        <td><label style="margin-right: 24px;">性别:</label></td>
+        <td><input type="radio" name="au" id="nu1" value="男" checked>男&emsp;&emsp;
+        <input type="radio" name="au" id="nu2" value="女">女</td>
+        </tr><br/>
+        <tr>
+        <td><label style="margin-right: 24px;">学历:</label></td>
+        <td><select name="select1" id="select1">
+            <option value="不说">不说</option>
+            <option value="初中">初中</option>
+            <option value="高中">高中</option>
+            <option value="大学">大学</option>
+        </select></td></tr>
+        <br/>
+        <button type="submit" style="font-size: 20px;">确认注册</button>
+    </form>
+    <div class="rels">
+        <p>已有账号，
+        <a href="./login.html">点击此处去登录</a></p>
+    </div>
+</div>
+</div>
+</body>
+</html>

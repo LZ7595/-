@@ -1,0 +1,35 @@
+<script>
+    header('Access-Control-Allow-Origin:*');
+    header("Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE");
+    header('Access-Control-Allow-Headers:x-requested-with,content-type');
+    </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>修改密码</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="box">
+    <div class="delu">
+        <div class="logo"><img src="../image/logo.png" alt="logo"></div>
+        <form action="../php/pwdg.php" method="post" name="form1">
+        <label>用户名:</label>
+        <span class="user"></span>
+        <br/>
+        <label>旧密码:</label>
+        <input type="password" name="opasswd" id="opasswd" placeholder="请输入密码">
+        <br/>
+        <label>新密码:</label>
+        <input type="password" name="npasswd" id="npasswd" placeholder="请输入密码">
+        <button type="submit" name="qr" id="qr">确认修改</button>
+        </br>
+        </form>
+        <div class="log"><p>不改了,<a href="./userhl.html">点此返回</a></p></div>
+</div>
+</div>
+<script src="../php/pwdg.php"></script>
+</body>
+</html>
